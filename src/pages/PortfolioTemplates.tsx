@@ -90,7 +90,7 @@ const templates = [
     name: 'Video + Light Cards',
     role: 'Data Analysts & BI Professionals',
     description:
-      'Video background hero with floating particles, paired with a clean white card theme throughout. Includes a dedicated certifications section and a 6-column skills grid.',
+      'Video background hero with floating particles, clean white card theme, dedicated certifications section, and a 6-column skills grid.',
     tags: ['Video BG', 'Light Cards', 'Particles'],
     previewImage:
       'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80',
@@ -102,6 +102,24 @@ const templates = [
       '6-column skills grid',
     ],
     livePreviewUrl: '/portfolio/template-5',
+  },
+  {
+    id: 6,
+    name: 'Dark Video',
+    role: 'Business & Sales Professionals',
+    description:
+      'Dark video background hero with profile image, blue accent palette, expertise category cards, and a performance metrics grid.',
+    tags: ['Video BG', 'Dark Theme', 'Blue Accents'],
+    previewImage:
+      'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80',
+    sections: ['Hero', 'About', 'Experience', 'Education', 'Contact'],
+    highlights: [
+      'Full-screen video hero with profile image',
+      'Expertise category cards with icons',
+      'Key achievement metrics strip',
+      'Performance metrics grid',
+    ],
+    livePreviewUrl: '/portfolio/template-6',
   },
 ];
 
@@ -390,7 +408,7 @@ export default function PortfolioTemplates() {
                 className="grid grid-cols-2 sm:grid-cols-4 bg-white/50 dark:bg-white/5 backdrop-blur-md border border-[#E2DFDA] dark:border-white/10 rounded-2xl overflow-hidden shadow-sm"
               >
                 {[
-                  { n: '05', label: 'Premium Templates', icon: Layout },
+                  { n: '06', label: 'Premium Templates', icon: Layout },
                   { n: '06+', label: 'Industry Categories', icon: Target },
                   { n: '2–3', label: 'Days Delivery', icon: Clock },
                   { n: '09', label: 'Core Inclusions', icon: ShieldCheck },

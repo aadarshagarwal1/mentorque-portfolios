@@ -5,6 +5,7 @@ import Template2Portfolio from './portfolios/template-2-anushka/PortfolioPage';
 import Template3Portfolio from './portfolios/template-3-snehashish/PortfolioPage';
 import Template4Portfolio from './portfolios/template-4-chandini/PortfolioPage';
 import Template5Portfolio from './portfolios/template-5-prasad/PortfolioPage';
+import Template6Portfolio from './portfolios/template-6-komal/PortfolioPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/portfolio/template-3" element={<Template3Portfolio />} />
         <Route path="/portfolio/template-4" element={<Template4Portfolio />} />
         <Route path="/portfolio/template-5" element={<Template5Portfolio />} />
+        <Route path="/portfolio/template-6" element={<Template6Portfolio />} />
         <Route path="*" element={<PortfolioTemplates />} />
       </Routes>
     </Router>
