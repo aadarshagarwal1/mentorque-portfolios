@@ -5,12 +5,12 @@
 // ============================================================
 
 export const person = {
-  name: "Morgan Patel",
+  name: "Alex Carter",
   title: "Data Analyst with 3+ years of experience in building dashboards, automating data workflows, and analyzing large datasets",
   location: "Dublin, Ireland",
   phone: "+353 89 000 0000",
-  email: "morgan.patel@email.com",
-  linkedin: "https://www.linkedin.com/in/morgan-patel/",
+  email: "alex.carter@email.com",
+  linkedin: "https://www.linkedin.com/in/alex-carter/",
   profileImage: "/placeholder_pfp/man4.avif",
   // Pexels free video — replace with any public .mp4 URL
   heroBgVideo: "https://videos.pexels.com/video-files/1722882/1722882-uhd_2560_1440_25fps.mp4",

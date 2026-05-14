@@ -3,9 +3,9 @@ import { ChevronDown } from "lucide-react";
 import { person } from "../data";
 
 const HeroSection = () => (
-  <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <section id="home" className="relative w-screen h-screen flex items-center justify-center overflow-hidden">
     {/* Base photo */}
-    <div className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-[1.02]" style={{ backgroundImage: `url(${person.heroBgImage})` }} aria-hidden />
+    <div className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${person.heroBgImage})` }} aria-hidden />
     {/* Overlays */}
     <div className="absolute inset-0 bg-gradient-to-b from-slate-950/55 via-slate-950/40 to-slate-950/82 pointer-events-none" aria-hidden />
     <div className="absolute inset-0 bg-gradient-to-br from-[hsl(202_85%_38%_/_0.14)] via-transparent to-[hsl(220_45%_12%_/_0.35)] pointer-events-none" aria-hidden />
@@ -17,7 +17,7 @@ const HeroSection = () => (
         <img
           src={person.profileImage}
           alt={person.name}
-          className="w-52 h-52 md:w-56 md:h-56 rounded-full border-2 border-white/40 shadow-lg object-cover object-center"
+          className="w-52 h-52 md:w-56 md:h-56 rounded-full border-2 border-white/40 shadow-lg object-cover object-top"
         />
       </div>
 

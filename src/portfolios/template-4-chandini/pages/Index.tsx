@@ -14,7 +14,7 @@ import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 
 const Index = () => (
-  <div className="min-h-screen">
+  <div className="w-full min-h-screen overflow-x-hidden">
     <Navigation />
     <HeroSection />
     <AboutSection />
